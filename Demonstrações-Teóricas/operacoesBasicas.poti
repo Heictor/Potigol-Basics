@@ -1,0 +1,40 @@
+#Operações básicas
+
+#Utilizando números:
+
+#Soma:
+escreva"Soma"
+escreva"3+6 = {3+6}"
+escreva"3.7+6.4 = {3.7+6.4}"+"\n"
+
+#Subtração:
+escreva"Subtração"
+escreva"9-4 = {9-4}"
+escreva"4-9 = {4-9}"+"\n"
+
+#Multiplicação:
+escreva"Multiplicação"
+escreva"13*80 = {13*80}"
+escreva"13.4*80.12 = {13.4*80.12}"+"\n"
+
+#Divisão:
+escreva"Divisão inteira"
+escreva"55 div 32 = {55 div 32}"
+escreva"55.78 div 32.45 = {55.78 div 32.45}"+"\n"
+
+escreva"Divisão real"
+escreva"55 / 32 = {55/32}"
+escreva"55.78 / 32.45 = {55.78/32.45}"+"\n"
+
+escreva"Resto da divisão"
+escreva"55 mod 32 = {55 mod 32}"
+escreva"55.78 mod 32.45 = {55.78 mod 32.45}"+"\n"
+
+#Potenciação
+escreva"Potenciação"
+escreva"4 ^ 3 = {4 ^ 3}"
+escreva"4.2 ^ 3.6 = {4.2 ^ 3.6}"
+
+#Radiciação
+escreva"Radiciação"
+escreva"8 ^ (1/3) = {8 ^ (1/3)}"
