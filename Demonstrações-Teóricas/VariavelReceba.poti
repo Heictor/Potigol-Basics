@@ -1,0 +1,41 @@
+#... Variáveis
+
+#Essas são as Variáveis chamadas de "fixa", no qual não podem ter seu valor alterado, sua capacidade
+# de armazenamento é de textos(strings), caractere, números(inteiro,real...) e lógico(verdadeiro ou falso)
+# e para nomear as variáveis o portigol utiliza-se do Case-sensitive, que é a capacidade da diferenciação
+# entre letras em caixa alta e caixa baixa, entretanto não se pode usar palavras reservadas, 
+# nos quais são palavras usadas pelo sistema para executar funções. 
+a=10
+A="vinte"
+b="30"
+B=40+"quarenta"
+
+#Aqui mostamos que as variáveis podem ser chamadas por meio da função "escreva"
+escreva"Valores das variáveis: {a},{A},{b},{B}"
+#A declaração paralela serve para atribuir vários valores de forma consecutiva as variáveis
+c,C,d=1,2,3
+escreva"Valor das variáveis 'c':{c},'C':{C}',:{d}"
+#Para facilitar a declaração de valor para as variáveis mostraremos que duas ou mais variáveis
+# podem receber um mesmo valor de forma simples
+variavel1,variavel2,variavel3=100
+escreva"Variável 1:{100} Variável 2:{100} Variável 3{100}" 
+
+#Será visto no próximo exemplo, a execução de um código tentando alterar o valor de uma
+# variável declarando-a novamente, entretanto é mostrada uma mensagem de erro
+#x=10
+#x=11
+
+#Para ser alterado um valor de uma variável chamando ela mais uma vez, não poderá ser
+#usado uma variável do tipo "fixa" e sim uma do tipo "alterável"
+var y:=100
+var y:=10
+escreva "valor de y:{y}"
+#A declaração em paralelo e a atribuição de um mesmo valor a mais de uma variável servem também
+# para a variável do tipo "alterável"
+
+var var1,var2,var3:=10,20,30
+escreva"var1:{var1} var2:{var2} var3:{var3}"
+var var4,var5,var6:=100
+escreva"var1:{var4} var2:{var5} var3:{var6}"
+
+#escrever sobre os tipos que existem e atribuir as variáveis...
