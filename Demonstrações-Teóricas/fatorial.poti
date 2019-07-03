@@ -1,0 +1,23 @@
+#Cálculo de fatorial de números inteiros
+escreva"Cálculo de fatorial de números inteiros."
+#"n" será o número que deseja-se calcular o fatorial
+
+#"f" será uma variável que armazenará o resultado das multiplicações dentro
+#da estrutura de repetição
+var f := 1
+
+escreva"Insira o número a ser utilizado."
+n = leia_inteiro
+se n<0 então
+  escreva "Número inválido."
+senãose n==0 então
+  escreva "O fatorial de {n} é igual a 1"
+senão
+  	#Estrutura de repetição que multiplicará o número "n" por seus antecessores
+	#com um decremento de -1 (menos um) 
+	para i de n até 1 passo -1 faça
+  		f := f*i
+   
+	fim
+	escreva"O fatorial de {n} é igual a {f}"
+fim
