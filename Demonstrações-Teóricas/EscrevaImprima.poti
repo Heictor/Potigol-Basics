@@ -22,6 +22,14 @@ escreva" não pulará"
 imprima"Forçando a\n"
 imprima"Quebra de linha\n"
 
+#Outra forma de manipulação do texto é a chamada "concatenação" na qual você poderá unir
+# tanto números quanto textos da forma que deseja, também pode ser usada para unificar
+# variáveis, que serão explicada no capítulo seguinte
+concatenação1="Poti"
+concatenação2="gol"
+escreva"Concatenando..." + 1 + "(um)" + concatenação1 + concatenação2 
+
+
 #Os comentários são parte importante da programação, no qual o usuário
 #pode escrever o que cada parte do seu código faz para poder ser entendido
 #por outro usuário ou até mesmo para si próprio caso não lembre o que foi feito.
@@ -42,7 +50,6 @@ escreva"3+4={3+4}"
 escreva"\n"
 escreva"Quebra de linha forçada"
 #Houveram duas quebras de linha devido a função escreva em conjunto com a quebra de linha forçada.
-
 
 
 

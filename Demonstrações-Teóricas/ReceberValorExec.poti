@@ -1,0 +1,22 @@
+#Para a inserção de valores nas variáveis por meio da execução do programa, 
+# deve haver uma preocupação no momento de criação do código referente à que tipo 
+# de valor será inserido *mostrar tabela de tipos* 
+
+#pois existe um tipo de função para alguns tipos de valor apresentados
+a=leia_inteiro
+b=leia_real
+c=leia_texto
+escreva "{a} {b} {c}"
+
+#Para lermos vários valores de uma vez em uma variável é feito da seguinte forma
+
+números= leia_inteiros(3) #Sendo impportante ressaltar que é "leia_inteiros" com "s"
+
+# também pode ser usado para os outros tipos de leituras
+
+escreva números #Assim mostrará todos os valores contidos na variável "números"
+escreva números[1] #Mas assim mostrará somente o primeiro número inserido na variável "números"
+
+textos=leia_textos(3)
+reais=leia_reais(3)
+escreva (textos,reais)
