@@ -1,0 +1,27 @@
+#Cálculo de média
+escreva"Cálculo de média simples"
+escreva"Digite o valor de números que serão inseridos"
+#É necessário definir o tipo como real 
+#para que não haja incompatibilidade posteriormente
+var soma := 0.0
+var media := 0.0
+#"n" representa a quantidade de números
+n = leia_inteiro
+#"números" é uma lista com os valores que serão calculados
+números = leia_reais(n)
+
+#Utiliza-se uma estrutura de repetição para somar os números inseridos 
+#"i" é o Índice da posição do número que está sendo exectuado na lista "números"
+para i de 1 até n faça
+	#Definir novo valor pra soma sendo o valor atual somado do número atual "i"
+	soma := soma+números[i]
+	imprima"O índice do número atual é: "
+	escreva i
+	imprima"O valor da soma de todos os números até o índice {i} é: "
+	escreva soma
+fim
+#Definindo a média como a soma de todos os números inseridos
+#divida pela quanditade de números
+media := soma/n
+escreva"O valor final da média simples é: "
+escreva media
