@@ -1,0 +1,45 @@
+#Média Aritmética
+
+#Um professor precisa de um programa que facilite no calculo da média(aritmética) dos alunos,
+# para chegar na média final foram realizadas 4 provas, tomando tais informações como base,
+# faça um código para ajudar o professor a fazer a média.
+#a)Faça apenas para 2 alunos
+escreva"Insira a nota da 1º prova"
+var num1:=leia_real
+escreva"Insira a nota da 2º prova"
+var num2:=leia_real
+escreva"Insira a nota da 3º prova"
+var num3:=leia_real
+escreva"Insira a nota da 4º prova"
+var num4:=leia_real
+var media:=(num1+num2+num3+num4)/4
+escreva"Média Final do 1º Aluno:{media}"
+
+escreva"\nInsira a nota da 1º prova"
+num1:=leia_real
+escreva"Insira a nota da 2º prova"
+num2:=leia_real
+escreva"Insira a nota da 3º prova"
+num3:=leia_real
+escreva"Insira a nota da 4º prova"
+num4:=leia_real
+media:=(num1+num2+num3+num4)/4
+escreva"Média Final do 2º Aluno:{media}"
+
+#b)Faça para 20 alunos usando a estrutura de repetição
+
+#Criando variáveis antes de entrarem no laço de repetição 
+var num1,num2,num3,num4,media:=0.0
+para cont de 1 até 20 faça #O nome da variável é cont para ser associado a contador
+	escreva"Insira a nota da 1º prova"
+	num1:=leia_real
+	escreva"Insira a nota da 2º prova"
+	num2:=leia_real
+	escreva"Insira a nota da 3º prova"
+	num3:=leia_real
+	escreva"Insira a nota da 4º prova"
+	num4:=leia_real
+	media:=(num1+num2+num3+num4)/4
+	escreva"Média Final do {cont}º Aluno:{media}" 
+#Aproveitamento da variável "cont" para enumerar os alunos
+fim

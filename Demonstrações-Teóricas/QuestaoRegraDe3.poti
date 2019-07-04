@@ -1,0 +1,15 @@
+#Uma vendedora de lanches precisa descobrir o quanto de suco ela consegue com 1500kg de cana-de-açúcar
+# , por ser uma vendedora experiente, anotou em seu carderno que consegue fazer 50 liros de suco com
+# 600 kg de açúcar.Faça um programa que realize uma "regra de 3" para ajudar a vendedora a descobrir
+# quantos litros de suco ela consegue fazer.
+var x1,x2,y1,resultado:=0.0
+escreva"Insira a quantidade de cana-de-açúcar(kg) já conhecida pela vendedora" 
+x1:=leia_real #x1 é a representação da quantitade de cana-de-açúcar(kg) 
+escreva"Insira a nova quantidade de cana-de-açúcar(kg) a ser utilizada"
+x2:=leia_real
+escreva"Insira a quantidade litros de suco já conhecida pela vendedora"
+y1:=leia_real 
+
+resultado:=x2*y1/x1
+escreva "A quantidade de suco em Litros utilizando {x2}kg será de {resultado}"
+
