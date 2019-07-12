@@ -2,8 +2,8 @@
 
 #Utilizando números:
 
-#Soma:
-escreva"Soma"
+#Adição:
+escreva"Adição"
 escreva"3+6 = {3+6}"
 escreva"3.7+6.4 = {3.7+6.4}"+"\n"
 
