@@ -1,0 +1,7 @@
+#Valor absoluto 
+escreva"Insira um número negativo:"
+número=leia_real
+se número >= 0 então
+  escreva"O número inserido não é negativo"
+fim
+escreva"O módulo do número inserido é:{abs(número)}"

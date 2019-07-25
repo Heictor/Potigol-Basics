@@ -1,0 +1,12 @@
+#Divisão:
+escreva"Divisão inteira:"
+escreva"55 div 32 = {55 div 32}"
+escreva"55.78 div 32.45 = {55.78 div 32.45}"+"\n"
+
+escreva"Divisão real:"
+escreva"55 / 32 = {55/32}"
+escreva"55.78 / 32.45 = {55.78/32.45}"+"\n"
+
+escreva"Resto da divisão:"
+escreva"55 mod 32 = {55 mod 32}"
+escreva"55.78 mod 32.45 = {55.78 mod 32.45}"+"\n"

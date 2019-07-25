@@ -1,0 +1,18 @@
+#Estrutura Condicional
+
+#Entrada de valores
+escreva"Insira o Salário:"
+salário=leia_real
+#Condição para executar
+se salário >= 900 então
+  #Bloco possível de ser executado caso atenda a condição
+  escreva"Salário maior(>) ou igual(==) que um salário mínimo(900)"
+#Utilizando o "senãose" para manter dentro da estrutura
+# e 
+senãose salário < 0
+	#Bloco possível de ser executado
+	escreva"Erro,salário menor(<) que 0"  
+senão
+  escreva"Salário menor(<) que um salário mínimo(900)"
+fim
+
