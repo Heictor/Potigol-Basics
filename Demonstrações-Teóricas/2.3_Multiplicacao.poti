@@ -1,12 +1,8 @@
-#Divisão:
-escreva"Divisão inteira:"
-escreva"55 div 32 = {55 div 32}"
-escreva"55.78 div 32.45 = {55.78 div 32.45}"+"\n"
-
-escreva"Divisão real:"
-escreva"55 / 32 = {55/32}"
-escreva"55.78 / 32.45 = {55.78/32.45}"+"\n"
-
-escreva"Resto da divisão:"
-escreva"55 mod 32 = {55 mod 32}"
-escreva"55.78 mod 32.45 = {55.78 mod 32.45}"+"\n"
+#Multiplicação
+escreva"Multiplicação"
+#Multiplicação Inteiro
+escreva"13*80 = {13*80}"
+#Multiplicação Real
+escreva"13.4*80.12 = {13.4*80.12}"
+#Prioridade de Execução
+escreva"(10-10+3*2)+2*2 = {(10-10+3*2)+2*2}"

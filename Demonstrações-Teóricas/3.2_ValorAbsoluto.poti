@@ -3,5 +3,9 @@ escreva"Insira um número negativo:"
 número=leia_real
 se número >= 0 então
   escreva"O número inserido não é negativo"
+senão
+	absoluto=abs(número)
+	raiz_quadrada=raiz(absoluto)
+	escreva"O módulo do número inserido é:{absoluto}"
+	escreva"A raiz quadrada é:{raiz_quadrada}"
 fim
-escreva"O módulo do número inserido é:{abs(número)}"

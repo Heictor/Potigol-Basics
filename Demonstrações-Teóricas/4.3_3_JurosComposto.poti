@@ -1,0 +1,11 @@
+#Juros Composto
+escreva"Insira o Capital:"
+capital=leia_real
+escreva"Insira a Taxa de Juros por Mês em %:"
+var taxa:=leia_real
+escreva"Insira a quantidade de Meses:"
+tempo=leia_real
+
+taxa := taxa/100
+var montante:= capital*(1 + taxa)^tempo
+escreva"Montante:{montante}"
