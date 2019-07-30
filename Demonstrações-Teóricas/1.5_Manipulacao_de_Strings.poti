@@ -1,0 +1,9 @@
+#Contornando o Problema
+
+#1-Função de Saída com Quebra de Linha
+imprima"3+4={3+4}\n"
+escreva"Quebra de linha forçada"
+
+#2-Concatenação com "\n"
+imprima"3+4={3+4}"+"\n"
+escreva"Quebra de linha forçada"
